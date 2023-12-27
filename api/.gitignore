@@ -1,0 +1,5 @@
+/node_modules
+package-lock.json
+sch.js
+wq.json
+readCSV.*

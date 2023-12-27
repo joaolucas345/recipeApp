@@ -1,0 +1,18 @@
+type Recipe {
+    name: String,
+    id: Int,
+    minutes: Int,
+    contributor_id: Int,
+    submitted: String,
+    tags: [String],
+    nutrition: [Int],
+    n_steps: Int,
+    steps: [String],
+    description: String,
+    ingredients: [String],
+    n_ingredients: Int
+}
+
+type Query {
+    recipe(ingredients: [String]): [Recipe]
+}
